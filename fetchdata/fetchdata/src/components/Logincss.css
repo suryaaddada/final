@@ -1,0 +1,25 @@
+.login-container {
+    background-color: #508bfc;
+    min-height: 100vh;
+  }
+  
+  .MDBCard {
+    opacity: 0;
+  }
+  
+  .MDBCard.animated.fadeIn {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+  
